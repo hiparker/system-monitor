@@ -1,0 +1,35 @@
+# 端口
+server:
+  port: 7000
+  tomcat:
+    max-swallow-size: -1
+  servlet:
+    compression:
+      enabled: true
+      mime-types: application/javascript,application/json,application/xml,text/html,text/xml,text/plain,text/css,image/*
+spring:
+  application:
+    name: system-monitor
+  #json 时间戳统一转换
+  jackson:
+    date-format:   yyyy-MM-dd HH:mm:ss
+    time-zone:   GMT+8
+  # 接口安全验证
+  security:
+    user:
+      name: parker
+      password: NET!@0p9o8i7u
+
+#swagger
+swagger:
+  contact:
+    email: meet.parker@foxmail.com
+    name: 在码圈
+  docket:
+    restcontroller:
+      title: 服务器监控 api接口
+      base-package: com.parker.monitor.system
+      version: 1.0.0
+      description: Java探针
+  host: 127.0.0.1:7000
+  version: 1.0.0
