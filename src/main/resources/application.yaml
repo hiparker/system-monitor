@@ -2,6 +2,18 @@
 server:
   port: 7000
   tomcat:
+    uri-encoding: UTF-8
+    basedir: /Users/liugf
+    max-threads: 2000
+    min-spare-threads: 10
+    accesslog:
+      pattern: common
+      enabled: true
+      directory: logs
+      prefix: access_log
+      suffix: .log
+      request-attributes-enabled: true
+      rename-on-rotate: true
     max-swallow-size: -1
   servlet:
     compression:
@@ -19,17 +31,3 @@ spring:
     user:
       name: parker
       password: NET!@0p9o8i7u
-
-#swagger
-swagger:
-  contact:
-    email: meet.parker@foxmail.com
-    name: 在码圈
-  docket:
-    restcontroller:
-      title: 服务器监控 api接口
-      base-package: com.parker.monitor.system
-      version: 1.0.0
-      description: Java探针
-  host: 127.0.0.1:7000
-  version: 1.0.0

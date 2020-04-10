@@ -185,4 +185,20 @@ public class Controller extends BaseController {
         return re;
     }
 
+
+    /**
+     * Linux获得libraryPath接口
+     * @return
+     */
+    @GetMapping("getLibraryPath")
+    @ApiOperation(value = "获得 Linux libraryPath",notes = "Linux安全服务器很高 需要找到对应的路径 把 sigar 的 so 文件传进去 并且 chmod 777 libsigar* ")
+    public Result<String> getLibraryPath()  throws Exception{
+        Result<String> re = new Result();
+        re.setResult(System.getProperty("java.library.path"));
+        re.setCode(CommonConstant.SC_OK_200);
+        return re;
+    }
+
+
+
 }

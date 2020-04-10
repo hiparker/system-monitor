@@ -1,0 +1,12 @@
+
+  ${AnsiColor.GREEN}                ${AnsiColor.CYAN}  _       _     _
+  ${AnsiColor.GREEN}                ${AnsiColor.CYAN} (_)     | |   (_)
+  ${AnsiColor.GREEN}   __ _ _ __ ___${AnsiColor.CYAN}  _ _ __ | |__  _
+  ${AnsiColor.GREEN}  / _` | '__/ __${AnsiColor.CYAN} | | '_ \| '_ \| |
+  ${AnsiColor.GREEN} | (_| | | | (__${AnsiColor.CYAN} | | | | | |_) | |
+  ${AnsiColor.GREEN}  \__,_|_|  \___${AnsiColor.CYAN} |_|_| |_|_.__/| |
+  ${AnsiColor.GREEN}                ${AnsiColor.CYAN}              _/ |
+  ${AnsiColor.GREEN}                ${AnsiColor.CYAN}             |__/
+
+${AnsiColor.BRIGHT_BLUE}:: 在码圈 🤓  :: Running Spring Boot ${spring-boot.version} ::
+:: https://www.arcinbj.com ::${AnsiColor.DEFAULT}
