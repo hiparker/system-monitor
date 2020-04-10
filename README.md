@@ -37,4 +37,16 @@
 
 
 **详情链接**
-https://www.arcinbj.com
+https://www.arcinbj.com/archives/systemmonitor
+
+![monitor-2](https://www.arcinbj.com/upload/2020/04/monitor-2-82b61460caec4ecbb2551c47f7f8a983.jpg)
+
+![monitor-3](https://www.arcinbj.com/upload/2020/04/monitor-3-2dcb83b3b87a405eaf00e9da0a657a6b.jpg)
+
+![monitor-4](https://www.arcinbj.com/upload/2020/04/monitor-4-b23a02f65a434c4988db5e5a870b5525.jpg)
+
+![monitor-5](https://www.arcinbj.com/upload/2020/04/monitor-5-7f7ed7ab5090493c8d3f2c1c9d973d9b.jpg)
+
+![monitor-1](https://www.arcinbj.com/upload/2020/04/monitor-1-1fac24af3a2f4a39b6906a035eb88d68.jpg)
+
+
