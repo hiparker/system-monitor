@@ -29,3 +29,12 @@
   
   # 有能力的 可以配置一下 开机启动
 ```
+### Windows
+需要把 sigar对应的插件 放入 jdk bin 目录下 
+
+### Linux 
+需要把 对应的 so 文件 放在 java.library.path 下 
+
+
+**详情链接**
+https://www.arcinbj.com
