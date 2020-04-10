@@ -2,7 +2,7 @@
 
 **基于（siger）开发的SpringBoot项目，java获取服务器信息**
 
-该项目未 Java探针 运行前提是 有Jvm环境，集成了Swagger接口
+该项目为 Java探针 运行前提是 有Jvm环境，集成了Swagger接口
 
 
 **场景：**
